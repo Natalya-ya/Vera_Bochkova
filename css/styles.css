@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+}
+  .btn {
+  background: white;
+  background-image: -webkit-linear-gradient(top, white, #aa8976);
+  background-image: -moz-linear-gradient(top, white, #aa8976);
+  background-image: -ms-linear-gradient(top, white, #aa8976);
+  background-image: -o-linear-gradient(top, white, #aa8976);
+  background-image: linear-gradient(to bottom, white, #aa8976);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #252525;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #433d3c 2px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.btn:hover {
+  background: #aa8976;
+  background-image: -webkit-linear-gradient(top, #aa8976, #433d3c);
+  background-image: -moz-linear-gradient(top, #aa8976, #433d3c);
+  background-image: -ms-linear-gradient(top, #aa8976, #433d3c);
+  background-image: -o-linear-gradient(top, #aa8976, #433d3c);
+  background-image: linear-gradient(to bottom, #aa8976, #433d3c);
+  text-decoration: none;
+}
+.general{
+  position: relative;
+    font-family: 'Noto Serif', serif;
+    color: black;
+  background-image: url("pexels-fernando-arcos-191240.jpg");
+  background-size: 1400px 700px;
+  background-repeat: no-repeat;
+  font-size: 1.5rem;
+}
+
+.description{
+  position: absolute;
+  top: 300px;
+  right: 400px;
+  left:600px;
+  width: 350px;
+  height: 350px;
+  line-height: normal;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #252525;
+  text-align: center;
+  background-color: white;
+  opacity: 0.6;
+}
+.first-H {
+  position: absolute;
+  top:30px;
+left:400px;
+  font-family: 'Lobster', cursive;
+font-size: 4rem;
+line-height:1.5;
+  color: #aa8976;
+text-shadow: #433d3c 6px 6px 4px;}
+
+  .mama{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 130px;
+    border-radius: 50%;
+  }
+  .menu{
+    width: 1000px;
+    position: absolute;
+    top: 20px;
+    left:650px;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .a {
+    position: relative;
+    display:block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    color: #252525;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+  .a:before {
+    content: '';
+    position: absolute;
+    top: calc(50% - 2px);
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background: #aa8976;
+    transition: 0.5s;
+  }
+  .a:hover {
+    color: #fff;
+  }
+  .a:hover::before {
+    animation: animate .5s linear forwards;
+  }
+
+  @keyframes animate {
+    0% {
+      top: calc(50% - 2px);
+      left: -100%;
+      height: 4px;
+      z-index: 1;
+    }
+    50% {
+      top: calc(50% - 2px);
+      left: 0;
+      height: 4px;
+      z-index: 1;
+    }
+    100% {
+      top: 0;
+      left: 0;
+      height: 100%;
+      z-index: -1;
+    }
+  }
+  /* Second page */
+
+  .caroiselimg1{
+    width: 35%;
+    margin-top:100px;
+    margin-bottom: 50px;
+    margin-left: 430px;
+  }
+.caroiselimg2{
+  width: 45%;
+  padding-top:100px;
+  margin-bottom: 110px;
+  margin-left: 370px;
+}
+.caroiselimg3{
+  width: 45%;
+  padding-top:100px;
+  margin-bottom: 150px;
+  margin-left: 380px;}
